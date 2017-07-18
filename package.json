@@ -1,0 +1,18 @@
+{
+    "name": "hook-binary-mirror",
+    "version": "1.0.0",
+    "description": "处理github上不翻墙不能下载的模块",
+    "main": "lib/main.js",
+    "bin": {
+        "hook-binary-mirror": "./bin/index.js"
+    },
+    "author": "yanjing<yanjing.zr@alibaba-inc.com>",
+    "license": "MIT",
+    "peerDependencies": {
+        "binary-mirror-config": "^1.5.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    }
+}
